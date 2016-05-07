@@ -23,4 +23,4 @@ function [f,g] = linear_regression_vec(theta, X,y)
 
 matrix = (theta'* X - y);
 f = 1/2 * matrix * matrix';
-g = X* (theta'* X - y)'
+g = X* (theta'* X - y)';

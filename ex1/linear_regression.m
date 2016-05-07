@@ -28,4 +28,4 @@ f = 1/2 * sum((theta'* X - y).^2);  %'
 %matrix = (theta'* X - y);
 %f = 1/2 * matrix * matrix';
 
-g = X* (theta'* X - y)'
+g = X* (theta'* X - y)';

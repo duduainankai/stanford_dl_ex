@@ -22,3 +22,9 @@ function [f,g] = logistic_regression(theta, X,y)
   %        up the gradients (df/dtheta) for each example. Store the result in 'g'.
   %
 %%% YOUR CODE HERE %%%
+
+h = sigmoid(theta' * X); %'
+
+f = -(log(h) * y' + log(1-h) * (1-y)');
+
+g = X * (h - y)';

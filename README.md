@@ -89,7 +89,7 @@ login.py的代码实现参考的就是`zhihu-python <https://github.com/egrcc/zh
   
 正确登录之后执行上面的命令，应该就可以看到你自己的TL了(下面这图是我的)。
 
-![](http://7xqncq.com1.z0.glb.clouddn.com/TimeLine.png)
+![](/img/TimeLine.png)
 
 **操作目录**
 

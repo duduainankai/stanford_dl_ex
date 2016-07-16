@@ -71,7 +71,7 @@ login.py的代码实现参考的就是[zhihu-python](https://github.com/egrcc/zh
 
 如果不出意外的话应该就可以得到下面的结果了。
 
-![](http://7xqncq.com1.z0.glb.clouddn.com/login.png)
+![](/img/login.png)
 
 **体验终端版知乎**
 
@@ -90,15 +90,15 @@ login.py的代码实现参考的就是[zhihu-python](https://github.com/egrcc/zh
 
 在每一个操作目录下都可以执行特定的操作，比如给一个答案点赞、关注一个用户或问题等等，当然你不需要像背shell命令一样记下所有的操作，在每个操作目录下输入help就可以查看当前可以执行的命令及其解释了。
 
-![](http://7xqncq.com1.z0.glb.clouddn.com/help.png)
+![](/img/help.png)
 
 然后我就可以用"voteup"给这位仁兄的答案点赞了。
 
-![](http://7xqncq.com1.z0.glb.clouddn.com/zan.png)
+![](/img/zan.png)
 
 查看一下知乎的动态 
 
-![](http://7xqncq.com1.z0.glb.clouddn.com/zhihu.png)
+![](/img/zhihu.png)
 
 现在提供的功能还比较基本，可以先尝试着玩一下。有时间的话应该还会扩展的。
 

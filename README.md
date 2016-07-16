@@ -1,14 +1,13 @@
 zhihu-terminal：终端版知乎
 ===============================
 
-.. Author::
+##Author:
 
-* `lizheming <http://lizheming.top>`
+* [lizheming](http://lizheming.top)
 
-* `emial <nkdudu@126.com>`
+* <nkdudu@126.com>
 
-介绍
-----
+##介绍
 
 zhihu-terminal 采用 python2.7编写，通过在命令行中执行python程序运行知乎客户端，就可以用类似bash命令的方式来给别人点赞啦。
 
@@ -16,16 +15,14 @@ zhihu-terminal 采用 python2.7编写，通过在命令行中执行python程序�
 
 更重要的是以后在实验开着命令行就不会被老板和同学发现我是在刷知乎了哦。。
 
-本项目部分代码参考借鉴项目：`zhihu-python <https://github.com/egrcc/zhihu-python>` _,感谢`@egrcc <https://github.com/egrcc>`的分享。
+本项目部分代码参考借鉴项目：[zhihu-python](<https://github.com/egrcc/zhihu-python>) , 感谢@[egrcc](https://github.com/egrcc)的分享。
 
 
 **本项目代码在Mac OSX 10.10.5上开发及测试，尚未兼容其他系统。**
 
-快速开始
----------
+##快速开始
 
-准备
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### 准备
 
 **Tips** :
 
@@ -34,36 +31,33 @@ zhihu-terminal 采用 python2.7编写，通过在命令行中执行python程序�
 
 **克隆本项目**
 
-
-.. code:: bash
-
-  git clone 
-  cd zhihu-terminal
+	git clone 
+	cd zhihu-terminal
 
 
 **依赖**
 
 本项目依赖于:
 
-* `Beautiful Soup 4 <http://www.crummy.com/software/BeautifulSoup/>`_
-* `requests <https://github.com/kennethreitz/requests>`_
-* `termcolor <https://pypi.python.org/pypi/termcolor>`_
+* [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/)
+* [requests](https://github.com/kennethreitz/requests)
+* [termcolor](https://pypi.python.org/pypi/termcolor)
 
 准备好虚拟环境并激活，执行以下命令可直接安装依赖：
 
-.. code:: bash
 
-  pip install -r requirements.txt
+	pip install -r requirements.txt
+  
   
 ps. 可以执行以下命令查看是否正确安装
 
-.. code:: bash
 
-  pip list
+	pip list
+
   
  
-开启终端知乎
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### 开启终端知乎
+
 
 **填写账号密码**
  
@@ -71,11 +65,9 @@ ps. 可以执行以下命令查看是否正确安装
 
 **测试登录**
 
-.. code:: bash
-
-  python login.py
+	python login.py
   
-login.py的代码实现参考的就是`zhihu-python <https://github.com/egrcc/zhihu-python>`。
+login.py的代码实现参考的就是[zhihu-python](https://github.com/egrcc/zhihu-python)。
 
 如果不出意外的话应该就可以得到下面的结果了。
 
@@ -83,9 +75,8 @@ login.py的代码实现参考的就是`zhihu-python <https://github.com/egrcc/zh
 
 **体验终端版知乎**
 
-.. code:: bash
-  
-  python zhihu.py
+
+	python zhihu.py
   
 正确登录之后执行上面的命令，应该就可以看到你自己的TL了(下面这图是我的)。
 

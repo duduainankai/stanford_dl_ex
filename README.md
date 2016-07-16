@@ -9,11 +9,11 @@ zhihu-terminal：终端版知乎
 
 ##介绍
 
-zhihu-terminal 采用 python2.7编写，通过在命令行中执行python程序运行知乎客户端，就可以用类似bash命令的方式来给别人点赞啦。
-
-感觉可以去回答在"命令行里刷知乎是怎样一种体验"了。
+zhihu-terminal 采用 python2.7编写，通过在命令行中执行python程序运行知乎客户端，就可以用类似bash命令的方式来刷TL、来关注问题和给别人点赞啦。
 
 更重要的是以后在实验开着命令行就不会被老板和同学发现我是在刷知乎了哦。。
+
+花式刷知乎也别有一番乐趣的嘛。
 
 本项目部分代码参考借鉴项目：[zhihu-python](<https://github.com/egrcc/zhihu-python>) , 感谢@[egrcc](https://github.com/egrcc)的分享。
 
